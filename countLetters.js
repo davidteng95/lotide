@@ -10,7 +10,7 @@ const countLetters = function(string) {
   let newString = string.trim();
   let letterCount = {};
   for (let letter of newString) {
-    if (letter !== " "){
+    if (letter !== " ") {
       if (letterCount[letter] !== undefined) {
         letterCount[letter]++;
       } else {
