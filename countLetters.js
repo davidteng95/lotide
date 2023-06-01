@@ -12,7 +12,7 @@ const countLetters = function(string) {
   for (let letter of newString) {
     if (letterCount[letter] !== undefined) {
       letterCount[letter]++;
-      } else {
+    } else {
       letterCount[letter] = 1;
     }
   }
