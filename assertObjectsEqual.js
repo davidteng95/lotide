@@ -29,7 +29,7 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-assertObjectsEqual({ a: '1', b: 2 }, { b: 2, a: '1' });
+assertObjectsEqual({ a: '1', b: 1 }, { b: 2, a: '1' });
 
 const shirtObject = { color: "red", size: "medium" };
 const anotherShirtObject = { size: "medium", color: "red" };
